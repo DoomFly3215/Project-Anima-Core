@@ -1,0 +1,15 @@
+name: AnimaCore
+version: 1.0-SNAPSHOT
+main: me.doomfly.animacore.AnimaCore
+prefix: WC
+authors: [ DoomFly3215 ]
+description: Animas Core
+commands:
+  permy:
+    description: l
+  rename:
+    description: l
+  dtest:
+    description: l
+  debug:
+    description: l

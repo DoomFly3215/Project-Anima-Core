@@ -1,0 +1,66 @@
+Database:
+  Host: wandom
+  Username: wandom
+  Password: wandom
+  Database: wandom
+  Port: 3306
+  SSL: false
+  Encoding: UTF-8
+  UsersTable: animabot_users
+# An Item to be teleported to the twilight dimension
+TwilightPortal:
+  Item: "TWILIGHTFOREST_MINIATURE_STRUCTURE"
+  Enabled: true
+# The messages someone gets when trying to join the server
+Whitelist:
+  Messages:
+    NotWhitelisted: "You are not whitelisted on the server, please apply in our discord.\ndiscord.projectanima.net"
+    Declined: "Your whitelist application has been declined,\nif you believe this is a mistake please appeal in our discord.\ndiscord.projectanima.net"
+    NotFinished: "You have not finished your whitelist application,\nplease check your direct messages for our bot.\ndiscord.projectanima.net"
+    NotReviewed: "Your whitelist application is still being processed,\nyou will receive a message when your application has been looked at.\ndiscord.projectanima.net"
+# The join messages of all users
+Join:
+  Messages:
+    Owner:
+      Message: "&f[&9Owner&f] &b%displayName% &7has entered the server"
+      # "Lines" Line spacing before and after
+      Lines: true
+    Admin:
+      Message: "&f[&4Admin&f] &c%displayName% &7has entered the server"
+      # "Lines" Line spacing before and after
+      Lines: true
+    Donator:
+      Message: "&f[&6Donator&f] &e%displayName% &7has entered the server"
+      # "Lines" Line spacing before and after
+      Lines: true
+    VIP:
+      Message: "&f[&2VIP&f] &a%displayName% &7has entered the server"
+      # "Lines" Line spacing before and after
+      Lines: false
+    Default:
+      Message: "&7%displayName% &7has entered the server"
+      # "Lines" Line spacing before and after
+      Lines: false
+# The leave messages of all users
+Leave:
+  Messages:
+    Owner:
+      Message: "&f[&9Owner&f] &b%displayName% &7has left the server"
+      # "Lines" Line spacing before and after
+      Lines: true
+    Admin:
+      Message: "&f[&4Admin&f] &c%displayName% &7has left the server"
+      # "Lines" Line spacing before and after
+      Lines: true
+    Donator:
+      Message: "&f[&6Donator&f] &e%displayName% &7has left the server"
+      # "Lines" Line spacing before and after
+      Lines: true
+    VIP:
+      Message: "&f[&2VIP&f] &a%displayName% &7has left the server"
+      # "Lines" Line spacing before and after
+      Lines: false
+    Default:
+      Message: "&7%displayName% &7has left the server"
+      # "Lines" Line spacing before and after
+      Lines: false
